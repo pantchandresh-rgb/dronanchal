@@ -11,23 +11,29 @@
 
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Dronanchal</div>
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#form">Request</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
 <header class="hero">
 
-  <!-- VIDEO -->
   <video autoplay muted loop playsinline class="bg-video">
-    <source src="https://cdn.coverr.co/videos/coverr-mountain-range-1566/1080p.mp4" type="video/mp4">
+    <source src="hero.mp4" type="video/mp4">
   </video>
 
-  <!-- FALLBACK IMAGE -->
-  <div class="hero-bg"></div>
-
-  <!-- OVERLAY -->
   <div class="overlay"></div>
 
-  <!-- CONTENT -->
   <div class="hero-content">
-    <h1>Drone Delivery for the Mountains</h1>
-    <p>Fast, reliable delivery in remote areas of Uttarakhand</p>
+    <h1>Dronanchal</h1>
+    <p>Lifeline of the Mountains</p>
 
     <div class="buttons">
       <a href="#form" class="btn primary">Request Delivery</a>
@@ -37,36 +43,14 @@
 
 </header>
 
-<!-- HOW IT WORKS -->
-<section class="section light">
-<h2>How It Works</h2>
-
-<div class="grid">
-  <div class="card">
-    <h3>📦 Request</h3>
-    <p>Submit request via form or WhatsApp</p>
-  </div>
-
-  <div class="card">
-    <h3>🚁 Assign</h3>
-    <p>Nearest drone pilot is assigned</p>
-  </div>
-
-  <div class="card">
-    <h3>⚡ Deliver</h3>
-    <p>Fast and safe delivery</p>
-  </div>
-</div>
-</section>
-
 <!-- SERVICES -->
-<section class="section dark">
+<section id="services" class="section light">
 <h2>Our Services</h2>
 
 <div class="grid">
   <div class="card">
     <h3>🚑 Medicine Delivery</h3>
-    <p>Emergency healthcare logistics</p>
+    <p>Emergency healthcare delivery</p>
   </div>
 
   <div class="card">
@@ -75,20 +59,19 @@
   </div>
 
   <div class="card">
-    <h3>🏔 Remote Areas</h3>
+    <h3>🏔 Remote Access</h3>
     <p>Reach difficult locations</p>
   </div>
 
   <div class="card">
-    <h3>🚨 Disaster Help</h3>
-    <p>Emergency response support</p>
+    <h3>🚨 Disaster Support</h3>
+    <p>Emergency response services</p>
   </div>
 </div>
-
 </section>
 
 <!-- FORM -->
-<section id="form" class="section light">
+<section id="form" class="section alt">
 <h2>Request Delivery</h2>
 
 <form class="form">
@@ -97,26 +80,48 @@
   <input placeholder="Pickup Location">
   <input placeholder="Delivery Location">
   <textarea placeholder="Package Details"></textarea>
-  <button class="btn primary">Submit</button>
+  <button class="btn primary">Submit Request</button>
 </form>
 
 </section>
 
-<!-- EMERGENCY -->
-<section class="emergency">
-<h2>🚨 Emergency Delivery</h2>
-<a href="https://wa.me/91XXXXXXXXXX?text=URGENT:%20Need%20delivery" class="btn danger">
-Contact Now
-</a>
+<!-- CONTACT -->
+<section id="contact" class="section light">
+<h2>Contact Us</h2>
+<p>📞 +91 XXXXX XXXXX</p>
+<p>📧 info@dronanchal.in</p>
 </section>
 
 <!-- FOOTER -->
 <footer>
-<h3>Dronanchal</h3>
-<p>Lifeline of the Mountains</p>
-<p>Uttarakhand, India</p>
-<p>Contact: info@dronanchal.in</p>
+
+<div class="footer-grid">
+
+  <div>
+    <h3>Dronanchal</h3>
+    <p>Lifeline of the Mountains</p>
+  </div>
+
+  <div>
+    <h4>Quick Links</h4>
+    <a href="#">Home</a><br>
+    <a href="#services">Services</a><br>
+    <a href="#form">Request</a>
+  </div>
+
+  <div>
+    <h4>Contact</h4>
+    <p>Email: info@dronanchal.in</p>
+    <p>Phone: +91 XXXXX XXXXX</p>
+  </div>
+
+</div>
+
+<p class="footer-bottom">© 2026 Dronanchal</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
