@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Dronanchal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dronanchal</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -11,84 +11,112 @@
 
 <body>
 
-<header>
- <video autoplay muted loop playsinline class="bg-video">
-  <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-mountains-5176/1080p.mp4" type="video/mp4">
-</video>
+<header class="hero">
 
+  <!-- VIDEO -->
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="https://cdn.coverr.co/videos/coverr-mountain-range-1566/1080p.mp4" type="video/mp4">
+  </video>
+
+  <!-- FALLBACK IMAGE -->
+  <div class="hero-bg"></div>
+
+  <!-- OVERLAY -->
   <div class="overlay"></div>
 
+  <!-- CONTENT -->
   <div class="hero-content">
     <h1>Drone Delivery for the Mountains</h1>
     <p>Fast, reliable delivery in remote areas of Uttarakhand</p>
+
     <div class="buttons">
       <a href="#form" class="btn primary">Request Delivery</a>
       <a href="https://wa.me/91XXXXXXXXXX" class="btn secondary">WhatsApp</a>
     </div>
   </div>
+
 </header>
 
-<section class="section">
-  <h2>How It Works</h2>
-  <div class="grid">
-    <div class="card">📦 Request Delivery</div>
-    <div class="card">🚁 Assign Drone Pilot</div>
-    <div class="card">⚡ Fast Delivery</div>
+<!-- HOW IT WORKS -->
+<section class="section light">
+<h2>How It Works</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3>📦 Request</h3>
+    <p>Submit request via form or WhatsApp</p>
   </div>
+
+  <div class="card">
+    <h3>🚁 Assign</h3>
+    <p>Nearest drone pilot is assigned</p>
+  </div>
+
+  <div class="card">
+    <h3>⚡ Deliver</h3>
+    <p>Fast and safe delivery</p>
+  </div>
+</div>
 </section>
 
+<!-- SERVICES -->
 <section class="section dark">
-  <h2>Our Services</h2>
- <div class="card">
-  <h3>🚑 Emergency Medicine</h3>
-  <p>Rapid delivery of critical medicines.</p>
-</div>
+<h2>Our Services</h2>
 
-<div class="card">
-  <h3>📦 Essential Supplies</h3>
-  <p>Daily essentials delivered to remote areas.</p>
-</div>
-</section>
-
-<section id="form" class="section">
-  <h2>Request Delivery</h2>
-  <form class="form">
-    <input placeholder="Full Name">
-    <input placeholder="Phone Number">
-    <input placeholder="Pickup Location">
-    <input placeholder="Delivery Location">
-    <textarea placeholder="Package Details"></textarea>
-    <button class="btn primary">Submit Request</button>
-  </form>
-</section>
-
-<section class="section">
-  <h2>Why Choose Us</h2>
-  <div class="grid">
-    <div class="card">✔ Fast in tough terrain</div>
-    <div class="card">✔ Verified pilots</div>
-    <div class="card">✔ Reliable service</div>
-    <div class="card">✔ Remote focused</div>
+<div class="grid">
+  <div class="card">
+    <h3>🚑 Medicine Delivery</h3>
+    <p>Emergency healthcare logistics</p>
   </div>
+
+  <div class="card">
+    <h3>📦 Essentials</h3>
+    <p>Daily supply delivery</p>
+  </div>
+
+  <div class="card">
+    <h3>🏔 Remote Areas</h3>
+    <p>Reach difficult locations</p>
+  </div>
+
+  <div class="card">
+    <h3>🚨 Disaster Help</h3>
+    <p>Emergency response support</p>
+  </div>
+</div>
+
 </section>
 
+<!-- FORM -->
+<section id="form" class="section light">
+<h2>Request Delivery</h2>
+
+<form class="form">
+  <input placeholder="Full Name">
+  <input placeholder="Phone Number">
+  <input placeholder="Pickup Location">
+  <input placeholder="Delivery Location">
+  <textarea placeholder="Package Details"></textarea>
+  <button class="btn primary">Submit</button>
+</form>
+
+</section>
+
+<!-- EMERGENCY -->
 <section class="emergency">
-  <h2>🚨 Emergency Delivery</h2>
-  <a href="https://wa.me/91XXXXXXXXXX?text=URGENT:%20Need%20delivery" class="btn danger">
-    Contact Now
-  </a>
+<h2>🚨 Emergency Delivery</h2>
+<a href="https://wa.me/91XXXXXXXXXX?text=URGENT:%20Need%20delivery" class="btn danger">
+Contact Now
+</a>
 </section>
 
+<!-- FOOTER -->
 <footer>
-  <div class="footer-content">
-    <h3>Dronanchal</h3>
-    <p>Lifeline of the Mountains</p>
-    <p>Uttarakhand, India</p>
-  </div>
+<h3>Dronanchal</h3>
+<p>Lifeline of the Mountains</p>
+<p>Uttarakhand, India</p>
+<p>Contact: info@dronanchal.in</p>
 </footer>
 
-
-
-<script src="script.js"></script>
 </body>
 </html>
