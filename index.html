@@ -1,57 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dronanchal</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Dronanchal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
   <video autoplay muted loop>
-    <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+    <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=6e8a4d" type="video/mp4">
   </video>
   <div class="overlay"></div>
 
   <div class="hero-content">
-    <h1>Fast Drone Delivery in Remote Areas of Uttarakhand</h1>
-    <p>Medicines and essentials delivered in minutes.</p>
-    <a href="#form" class="btn">Request Delivery</a>
-    <a href="https://wa.me/91XXXXXXXXXX" class="btn">WhatsApp</a>
+    <h1>Drone Delivery for the Mountains</h1>
+    <p>Fast, reliable delivery in remote areas of Uttarakhand</p>
+    <div class="buttons">
+      <a href="#form" class="btn primary">Request Delivery</a>
+      <a href="https://wa.me/91XXXXXXXXXX" class="btn secondary">WhatsApp</a>
+    </div>
   </div>
 </header>
 
-<section>
+<section class="section">
   <h2>How It Works</h2>
   <div class="grid">
-    <div class="card">Request</div>
-    <div class="card">Assign Pilot</div>
-    <div class="card">Delivery</div>
+    <div class="card">📦 Request Delivery</div>
+    <div class="card">🚁 Assign Drone Pilot</div>
+    <div class="card">⚡ Fast Delivery</div>
   </div>
 </section>
 
-<section id="form">
+<section class="section dark">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">🚑 Emergency Medicine</div>
+    <div class="card">📦 Essential Supplies</div>
+    <div class="card">🏔️ Remote Areas</div>
+    <div class="card">🚨 Disaster Support</div>
+  </div>
+</section>
+
+<section id="form" class="section">
   <h2>Request Delivery</h2>
-  <form>
-    <input placeholder="Name">
-    <input placeholder="Phone">
-    <input placeholder="Pickup">
-    <input placeholder="Delivery">
-    <textarea placeholder="Details"></textarea>
-    <button class="btn">Submit</button>
+  <form class="form">
+    <input placeholder="Full Name">
+    <input placeholder="Phone Number">
+    <input placeholder="Pickup Location">
+    <input placeholder="Delivery Location">
+    <textarea placeholder="Package Details"></textarea>
+    <button class="btn primary">Submit Request</button>
   </form>
 </section>
 
+<section class="section">
+  <h2>Why Choose Us</h2>
+  <div class="grid">
+    <div class="card">✔ Fast in tough terrain</div>
+    <div class="card">✔ Verified pilots</div>
+    <div class="card">✔ Reliable service</div>
+    <div class="card">✔ Remote focused</div>
+  </div>
+</section>
+
+<section class="emergency">
+  <h2>🚨 Emergency Delivery</h2>
+  <a href="https://wa.me/91XXXXXXXXXX?text=URGENT:%20Need%20delivery" class="btn danger">
+    Contact Now
+  </a>
+</section>
+
 <footer>
-  <p>Dronanchal</p>
+  <h3>Dronanchal</h3>
+  <p>Lifeline of the Mountains</p>
+  <p>Uttarakhand, India</p>
 </footer>
 
-<!-- JS -->
 <script src="script.js"></script>
-
 </body>
 </html>
