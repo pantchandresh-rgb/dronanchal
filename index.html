@@ -12,9 +12,10 @@
 <body>
 
 <header>
-  <video autoplay muted loop>
-    <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=6e8a4d" type="video/mp4">
-  </video>
+ <video autoplay muted loop playsinline class="bg-video">
+  <source src="https://cdn.coverr.co/videos/coverr-aerial-view-of-mountains-5176/1080p.mp4" type="video/mp4">
+</video>
+
   <div class="overlay"></div>
 
   <div class="hero-content">
@@ -38,12 +39,15 @@
 
 <section class="section dark">
   <h2>Our Services</h2>
-  <div class="grid">
-    <div class="card">🚑 Emergency Medicine</div>
-    <div class="card">📦 Essential Supplies</div>
-    <div class="card">🏔️ Remote Areas</div>
-    <div class="card">🚨 Disaster Support</div>
-  </div>
+ <div class="card">
+  <h3>🚑 Emergency Medicine</h3>
+  <p>Rapid delivery of critical medicines.</p>
+</div>
+
+<div class="card">
+  <h3>📦 Essential Supplies</h3>
+  <p>Daily essentials delivered to remote areas.</p>
+</div>
 </section>
 
 <section id="form" class="section">
@@ -76,10 +80,14 @@
 </section>
 
 <footer>
-  <h3>Dronanchal</h3>
-  <p>Lifeline of the Mountains</p>
-  <p>Uttarakhand, India</p>
+  <div class="footer-content">
+    <h3>Dronanchal</h3>
+    <p>Lifeline of the Mountains</p>
+    <p>Uttarakhand, India</p>
+  </div>
 </footer>
+
+
 
 <script src="script.js"></script>
 </body>
